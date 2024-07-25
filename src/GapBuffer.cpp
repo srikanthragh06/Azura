@@ -79,14 +79,7 @@ namespace azura
         {
             if (i < l || i > r)
             {
-                if (buffer[i] == ' ')
-                {
-                    std::cout << '_';
-                }
-                else
-                {
-                    std::cout << buffer[i];
-                }
+                std::cout << buffer[i];
             }
             else if (i == l)
             {
